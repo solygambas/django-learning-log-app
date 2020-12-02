@@ -1,4 +1,4 @@
-# Learning App
+# Learning Log App
 
 A learning log app to understand Django basics.
 
