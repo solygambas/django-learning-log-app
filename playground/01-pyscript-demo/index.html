@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <title>PyScript Demo</title>
+  </head>
+  <body>
+    <div id="output" class="text-3xl"></div>
+    <py-script> 
+      import math
+      import numpy as np
+
+      name = 'Brad' 
+      print(name) 
+
+      def getSum(x, y):
+        return x + y
+
+      sum = getSum(5, 5)
+      print(sum)
+
+      # using JS methods
+      console.log(sum) 
+
+      # create a div
+      # pyscript.write('output', sum)
+      
+      # use math
+      pyscript.write('output', math.sqrt(10)) # 3.162277
+
+      # use numpy
+      
+    </py-script>
+    <!-- access python repl in browser -->
+    <!-- <py-repl></py-repl> -->
+  </body>
+</html>
