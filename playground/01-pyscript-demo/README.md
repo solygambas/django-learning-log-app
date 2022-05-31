@@ -2,15 +2,20 @@
 
 A quick intro to PyScript.
 
+<p align="center">
+    <img src="screenshot.png">
+</p>
+
 ## Features
 
 - setting up PyScript.
+- disabling Prettier in Visual Studio Code.
 - writing Python in HTML.
 - mixing JavaScript.
 - targetting DOM elements.
 - displaying Python REPL in the browser.
 - adding Tailwind CSS classes.
-- importing 3rd party packages.
+- defining environment and importing 3rd party packages.
 - using a separate .py file.
 - handling events.
 - shuffling array.

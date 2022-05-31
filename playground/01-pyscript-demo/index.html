@@ -7,33 +7,18 @@
     <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
     <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
     <title>PyScript Demo</title>
+    <py-env>
+      - numpy
+      - paths:
+        - ./utils.py
+    </py-env>
   </head>
   <body>
-    <div id="output" class="text-3xl"></div>
-    <py-script> 
-      import math
-      import numpy as np
-
-      name = 'Brad' 
-      print(name) 
-
-      def getSum(x, y):
-        return x + y
-
-      sum = getSum(5, 5)
-      print(sum)
-
-      # using JS methods
-      console.log(sum) 
-
-      # create a div
-      # pyscript.write('output', sum)
-      
-      # use math
-      pyscript.write('output', math.sqrt(10)) # 3.162277
-
-      # use numpy
-      
+    <main class="container h-screen flex flex-col items-center justify-center">
+      <div id="output" class="text-3xl"></div>
+      <button id="shuffle" class="mt-4 p-2 text-white bg-blue-600 rounded" pys-onClick="shuffle_array">Shuffle</button>
+    </main>
+    <py-script src="./main.py"> 
     </py-script>
     <!-- access python repl in browser -->
     <!-- <py-repl></py-repl> -->
