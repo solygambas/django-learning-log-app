@@ -10,5 +10,7 @@ A polling app to understand Django core concepts.
 
 - setting up Django with pyenv.
 - creating a model for polls.
+- adding dummy data to the database via the shell.
+- creating a superuser.
 
 Based on [Python Django Crash Course](https://www.youtube.com/watch?v=e1IyzVyrLSU) by Brad Traversy - Traversy Media (2019).
