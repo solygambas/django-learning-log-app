@@ -9,5 +9,6 @@ A polling app to understand Django core concepts.
 ## Features
 
 - setting up Django with pyenv.
+- creating a model for polls.
 
 Based on [Python Django Crash Course](https://www.youtube.com/watch?v=e1IyzVyrLSU) by Brad Traversy - Traversy Media (2019).
