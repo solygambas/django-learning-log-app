@@ -2,9 +2,9 @@
 
 A polling app to understand Django core concepts.
 
-<!-- <p align="center">
+<p align="center">
     <img src="screenshot.png">
-</p> -->
+</p>
 
 ## Features
 
@@ -15,5 +15,7 @@ A polling app to understand Django core concepts.
 - customizing the admin area.
 - using a template and including Bootstrap.
 - handling votes and displaying results.
+- using partials to display a navbar.
+- rendering a home page.
 
 Based on [Python Django Crash Course](https://www.youtube.com/watch?v=e1IyzVyrLSU) by Brad Traversy - Traversy Media (2019).
