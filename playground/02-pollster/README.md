@@ -14,5 +14,6 @@ A polling app to understand Django core concepts.
 - creating a superuser.
 - customizing the admin area.
 - using a template and including Bootstrap.
+- handling votes and displaying results.
 
 Based on [Python Django Crash Course](https://www.youtube.com/watch?v=e1IyzVyrLSU) by Brad Traversy - Traversy Media (2019).
